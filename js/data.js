@@ -8,28 +8,28 @@ const PARROTS = [
     id: 1, name: "Atlas", species: "African Grey", speciesSlug: "african-grey",
     age: "3 Years", ageMonths: 36, gender: "Male", price: 2800,
     healthStatus: "Vet-Certified Healthy", featured: true,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Psittacus_erithacus_-Porto,_Portugal-8.jpg?width=600",
+    img: "https://images.pexels.com/photos/1599529/pexels-photo-1599529.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Atlas is an exceptionally intelligent African Grey with a growing vocabulary of over 80 words and phrases. Hand-raised from hatch under expert avicultural care, he has been socialized extensively with adults and children. His curious, contemplative nature makes daily interactions endlessly rewarding. Comes with full CITES documentation, a 30-day health guarantee, and a personal breeder consultation."
   },
   {
     id: 2, name: "Nova", species: "African Grey", speciesSlug: "african-grey",
     age: "18 Months", ageMonths: 18, gender: "Female", price: 2600,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Grey_parrot_%28Psittacus_erithacus%29_Luc_Viatour.jpg?width=600",
+    img: "https://images.pexels.com/photos/6577015/pexels-photo-6577015.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Nova is a gentle, inquisitive young African Grey who is at an ideal age to form deep bonds with her new family. She has begun mimicking household sounds with remarkable accuracy and shows extraordinary problem-solving skills. Her sweet, observant temperament makes her ideal for dedicated bird owners."
   },
   {
     id: 3, name: "Echo", species: "African Grey", speciesSlug: "african-grey",
     age: "2 Years", ageMonths: 24, gender: "Male", price: 2900,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Timneh_african_grey_parrot_31l07.JPG?width=600",
+    img: "https://images.pexels.com/photos/13422025/pexels-photo-13422025.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Echo lives up to his name with a stunning repertoire of sounds, whistles, and words. Raised with enrichment toys and consistent environmental stimulation, he exhibits exceptional cognitive development. His expressive red tail and sharp intelligence make him a constant source of wonder and delight."
   },
   {
     id: 4, name: "Zuri", species: "African Grey", speciesSlug: "african-grey",
     age: "4 Years", ageMonths: 48, gender: "Female", price: 3100,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Psittacus_erithacus_-Porto,_Portugal-8.jpg?width=600",
+    img: "https://images.pexels.com/photos/1599533/pexels-photo-1599533.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Zuri is a mature, confident African Grey with a well-established vocabulary and a deeply trusting nature. She is known among our team for her warmth and her remarkable ability to sense and respond to human emotion. Perfect for an experienced bird owner seeking a profound lifelong companion."
   },
 
@@ -38,21 +38,21 @@ const PARROTS = [
     id: 5, name: "Rio", species: "Blue and Gold Macaw", speciesSlug: "macaws",
     age: "2 Years", ageMonths: 24, gender: "Male", price: 3500,
     healthStatus: "Vet-Certified Healthy", featured: true,
-    img: "https://upload.wikimedia.org/wikipedia/commons/1/1a/Ara_ararauna_Luc_Viatour.jpg",
+    img: "https://images.pexels.com/photos/1437264/pexels-photo-1437264.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Rio is a breathtakingly beautiful Blue and Gold Macaw whose vivid sapphire and aureate plumage commands attention in any setting. Fully weaned, hand-tame, and positively reinforcement trained, he is bold and affectionate in equal measure. His magnificent 3-foot wingspan and warm personality make him a true living masterpiece."
   },
   {
     id: 6, name: "Solara", species: "Blue and Gold Macaw", speciesSlug: "macaws",
     age: "3 Years", ageMonths: 36, gender: "Female", price: 3800,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ara_ararauna_-_Blauwe_en_gele_Ara.jpg?width=600",
+    img: "https://images.pexels.com/photos/1437264/pexels-photo-1437264.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Solara is a magnificent female Blue and Gold Macaw who loves to be the center of attention. She has mastered an impressive array of tricks through positive reinforcement training and delights in showing off her abilities. A showstopper by every measure, Solara will enrich any home she graces."
   },
   {
     id: 7, name: "Kai", species: "Blue and Gold Macaw", speciesSlug: "macaws",
     age: "18 Months", ageMonths: 18, gender: "Male", price: 3200,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Blue-and-gold_Macaw_headshot.jpg?width=600",
+    img: "https://images.pexels.com/photos/1437264/pexels-photo-1437264.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Kai is a young, playful Blue and Gold Macaw at the thrilling cusp of full personality development. Already showing signs of high intelligence and bold curiosity, he is an ideal companion for someone who wishes to grow alongside their bird and forge a lifelong bond from an early age."
   },
 
@@ -61,14 +61,14 @@ const PARROTS = [
     id: 8, name: "Ember", species: "Scarlet Macaw", speciesSlug: "macaws",
     age: "2 Years", ageMonths: 24, gender: "Female", price: 4200,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Ara_macao_-Belize_Zoo-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/822778/pexels-photo-822778.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Ember is a stunning Scarlet Macaw whose fiery crimson, gold, and cobalt plumage makes her one of the most visually spectacular birds in our aviary. Hand-raised with expert care, she has a bold yet loving personality and is an accomplished talker. Her vivid colors are in their prime, breathtaking in any light."
   },
   {
     id: 9, name: "Phoenix", species: "Scarlet Macaw", speciesSlug: "macaws",
     age: "3 Years", ageMonths: 36, gender: "Male", price: 4500,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Scarlet_Macaw_Ara_macao.jpg?width=600",
+    img: "https://images.pexels.com/photos/2954458/pexels-photo-2954458.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Phoenix is a majestic Scarlet Macaw with a flame-bright personality to match his legendary plumage. Sociable, affectionate, and extensively trained using positive reinforcement, he is a bird of exceptional character. Phoenix represents the pinnacle of what this extraordinary species can offer as a companion."
   },
 
@@ -77,28 +77,28 @@ const PARROTS = [
     id: 10, name: "Luna", species: "Umbrella Cockatoo", speciesSlug: "cockatoos",
     age: "2 Years", ageMonths: 24, gender: "Female", price: 3000,
     healthStatus: "Vet-Certified Healthy", featured: true,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cacatua_alba_-Jurong_Bird_Park-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/18294425/pexels-photo-18294425.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Luna is a snow-white Umbrella Cockatoo of extraordinary gentleness and beauty. She fans her magnificent white crest in greeting and has an endearing habit of dancing to any music with a strong rhythm. Known for forming deep emotional bonds, Luna is the perfect companion for a dedicated bird lover who has time to give."
   },
   {
     id: 11, name: "Milo", species: "Umbrella Cockatoo", speciesSlug: "cockatoos",
     age: "3 Years", ageMonths: 36, gender: "Male", price: 3200,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cacatua_alba_-Jurong_Bird_Park-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/19562745/pexels-photo-19562745.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Milo is an expressive Umbrella Cockatoo who communicates volumes through his spectacular crest and dramatic vocalizations. Raised in a rich, stimulating environment, he shows exceptional aptitude for socialization and learning. His theatrical personality makes every day in his company a genuine pleasure."
   },
   {
     id: 12, name: "Snow", species: "Moluccan Cockatoo", speciesSlug: "cockatoos",
     age: "4 Years", ageMonths: 48, gender: "Female", price: 3800,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cacatua_moluccensis_-Jurong_Bird_Park-6a.jpg?width=600",
+    img: "https://images.pexels.com/photos/18294425/pexels-photo-18294425.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Snow is a rare Moluccan Cockatoo — one of the largest of all cockatoo species — with a delicate salmon-pink crest that blushes deep rose when she is excited. Her gentle disposition and melodious voice are matched only by the extraordinary warmth of her personality. A truly once-in-a-lifetime bird."
   },
   {
     id: 13, name: "Pearl", species: "Sulphur-crested Cockatoo", speciesSlug: "cockatoos",
     age: "5 Years", ageMonths: 60, gender: "Female", price: 2800,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Cacatua_galerita_-_Barrington_Tops.jpg?width=600",
+    img: "https://images.pexels.com/photos/18294425/pexels-photo-18294425.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Pearl is an elegant Sulphur-crested Cockatoo whose brilliant golden crest fans like a diadem. She is highly intelligent, impressively acrobatic, and has an extensive repertoire of tricks and vocalizations built through years of dedicated positive training. Pearl carries herself with the dignity befitting her name."
   },
 
@@ -107,28 +107,28 @@ const PARROTS = [
     id: 14, name: "Jade", species: "Double Yellow Head Amazon", speciesSlug: "amazon",
     age: "3 Years", ageMonths: 36, gender: "Female", price: 2400,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_oratrix.jpg?width=600",
+    img: "https://images.pexels.com/photos/56733/pexels-photo-56733.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Jade is a vibrant Double Yellow Head Amazon considered among the finest talking parrots in the world. Her rich emerald plumage and developing golden crown are as spectacular as her vocal talent. She has mastered numerous phrases with crystal clarity and shows a natural aptitude for music and song."
   },
   {
     id: 15, name: "Samba", species: "Blue-fronted Amazon", speciesSlug: "amazon",
     age: "2 Years", ageMonths: 24, gender: "Male", price: 2200,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Amazona_aestiva_-_Blue-fronted_amazon.jpg?width=600",
+    img: "https://images.pexels.com/photos/133396/pexels-photo-133396.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Samba brings the energy and color of the tropics to any home he enters. This Blue-fronted Amazon is a natural performer with an infectious love for music, a talent for mimicry, and an outgoing, playful personality that endears him to everyone he meets."
   },
   {
     id: 16, name: "Diego", species: "Yellow-naped Amazon", speciesSlug: "amazon",
     age: "4 Years", ageMonths: 48, gender: "Male", price: 2600,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Amazon_ochrocephala_auropalliata.jpg?width=600",
+    img: "https://images.pexels.com/photos/1661179/pexels-photo-1661179.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Diego is a masterful Yellow-naped Amazon — a species celebrated as perhaps the most gifted talker among all parrots. His articulate speech, rich vocalizations, and warm personality create daily interactions of genuine depth and humor. Diego is a bird that elevates the definition of companionship."
   },
   {
     id: 17, name: "Verde", species: "Lilac-crowned Amazon", speciesSlug: "amazon",
     age: "18 Months", ageMonths: 18, gender: "Female", price: 2000,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Amazona_virenticeps.jpg?width=600",
+    img: "https://images.pexels.com/photos/26822483/pexels-photo-26822483.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Verde is a charming young Lilac-crowned Amazon with a subtle, distinguished crown of soft violet and deep green. At an ideal age to form her primary bond, she shows remarkable potential as a companion bird and is already developing her vocal talents with impressive speed."
   },
 
@@ -137,21 +137,21 @@ const PARROTS = [
     id: 18, name: "Ruby", species: "Eclectus", speciesSlug: "eclectus",
     age: "2 Years", ageMonths: 24, gender: "Female", price: 3200,
     healthStatus: "Vet-Certified Healthy", featured: true,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Eclectus_roratus_-Brighton,_Victoria,_Australia_-pet-8a_%281%29.jpg?width=600",
+    img: "https://images.pexels.com/photos/12715157/pexels-photo-12715157.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Ruby is a breathtaking female Eclectus whose rich crimson and royal blue plumage is unlike any other parrot species on earth. Female Eclectus are celebrated for their calm, dignified, and deeply intuitive nature. Ruby embodies all of these qualities, making her a bird of truly extraordinary distinction."
   },
   {
     id: 19, name: "Emerald", species: "Eclectus", speciesSlug: "eclectus",
     age: "3 Years", ageMonths: 36, gender: "Male", price: 3000,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Eclectus_roratus_-Caversham_Wildlife_Park-8.jpg?width=600",
+    img: "https://images.pexels.com/photos/34749293/pexels-photo-34749293.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Emerald is a brilliant male Eclectus whose vivid emerald plumage and candy-corn beak seem almost too beautiful to be real. Male Eclectus are gentle, calm, and highly food-motivated, making them exceptional training partners. Emerald's serene presence brings a sense of quiet luxury to any environment."
   },
   {
     id: 20, name: "Scarlet", species: "Eclectus", speciesSlug: "eclectus",
     age: "4 Years", ageMonths: 48, gender: "Female", price: 3400,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Eclectus_roratus_-Brighton,_Victoria,_Australia_-pet-8a_%281%29.jpg?width=600",
+    img: "https://images.pexels.com/photos/12715157/pexels-photo-12715157.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Scarlet is a mature, regal female Eclectus with a commanding presence and an aura of quiet intelligence. Her striking crimson plumage reaches its full, spectacular depth at her age, and her beautiful whistling call is the soundtrack of a contented, well-loved bird."
   },
 
@@ -160,21 +160,21 @@ const PARROTS = [
     id: 21, name: "Blaze", species: "Sun Conure", speciesSlug: "conures",
     age: "1 Year", ageMonths: 12, gender: "Male", price: 800,
     healthStatus: "Vet-Certified Healthy", featured: true,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Aratinga_solstitialis-Jurong_Bird_Park-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/6279041/pexels-photo-6279041.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Blaze is an incandescent Sun Conure whose plumage transitions from deep saffron at his head to brilliant amber-orange along his wings — a living sunset. Playful, cuddly, and brimming with personality, he lights up any room he occupies. His joyful energy and affectionate nature are completely irresistible."
   },
   {
     id: 22, name: "Sunny", species: "Sun Conure", speciesSlug: "conures",
     age: "8 Months", ageMonths: 8, gender: "Female", price: 750,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Aratinga_solstitialis-Jurong_Bird_Park-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/6279041/pexels-photo-6279041.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Sunny is a spirited young Sun Conure still developing her full adult coloration — a transformation that is a joy to witness. Her warm golden plumage and spirited antics make her utterly irresistible. She is ideal for someone who wants to experience every stage of a Sun Conure's remarkable development."
   },
   {
     id: 23, name: "Flare", species: "Sun Conure", speciesSlug: "conures",
     age: "2 Years", ageMonths: 24, gender: "Male", price: 900,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Sun_conure_pair.jpg?width=600",
+    img: "https://images.pexels.com/photos/6279041/pexels-photo-6279041.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Flare is a fully mature Sun Conure with brilliant, fully-developed adult plumage at its absolute zenith. A confident, demonstrably affectionate bird who loves shoulder time and head scratches, his vivid colors and exuberant personality make him a constant source of warmth and entertainment."
   },
 
@@ -183,21 +183,21 @@ const PARROTS = [
     id: 24, name: "Olive", species: "Green Cheek Conure", speciesSlug: "conures",
     age: "1 Year", ageMonths: 12, gender: "Female", price: 450,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Green-cheeked_Conure.jpg?width=600",
+    img: "https://images.pexels.com/photos/14155158/pexels-photo-14155158.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Olive is a delightful Green Cheek Conure with a charm that belies her compact size. Curious, playful, and irresistibly snuggly, she is a perfect companion for apartment living or for families welcoming their first parrot. Her quiet, calm temperament makes her adaptable to a wide variety of home environments."
   },
   {
     id: 25, name: "Mango", species: "Green Cheek Conure", speciesSlug: "conures",
     age: "6 Months", ageMonths: 6, gender: "Male", price: 420,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Pyrrhura_molinae_-captive-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/14155158/pexels-photo-14155158.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Mango is a vibrant, fearless young Green Cheek Conure in the exciting early stages of personality development. He is bold, playful, and has the most endearing habit of sleeping flat on his back — a sure sign of complete contentment. Young and full of potential, he is ready to bond deeply."
   },
   {
     id: 26, name: "Pico", species: "Green Cheek Conure", speciesSlug: "conures",
     age: "18 Months", ageMonths: 18, gender: "Male", price: 480,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Green-cheeked_Conure.jpg?width=600",
+    img: "https://images.pexels.com/photos/14155158/pexels-photo-14155158.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Pico is a spirited Green Cheek Conure with a personality far larger than his small frame suggests. A talented learner of tricks with an acrobatic nature, he loves to show off his skills for an audience. Entertaining, affectionate, and endlessly surprising — Pico is a constant source of joy."
   },
 
@@ -206,14 +206,14 @@ const PARROTS = [
     id: 27, name: "Cupid", species: "Peach-faced Lovebird", speciesSlug: "lovebirds",
     age: "1 Year", ageMonths: 12, gender: "Male", price: 250,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Agapornis_roseicollis_-captive_-pair-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/32145863/pexels-photo-32145863.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Cupid is an enchanting Peach-faced Lovebird with his signature blush-coral face and vivid emerald body. True to his species and his name, he forms incredibly strong bonds and thrives on interaction and affection. Small in stature but immense in personality, Cupid is a gem of the avian world."
   },
   {
     id: 28, name: "Peachy", species: "Peach-faced Lovebird", speciesSlug: "lovebirds",
     age: "8 Months", ageMonths: 8, gender: "Female", price: 240,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Agapornis_fischeri_-San_Francisco_Zoo-6.jpg?width=600",
+    img: "https://images.pexels.com/photos/32145863/pexels-photo-32145863.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Peachy is a young, exquisitely coloured Peach-faced Lovebird who fits comfortably in a cupped palm yet fills a room with her presence. Bright, energetic, and wonderfully hand-tame, she is an ideal companion for anyone seeking a deeply affectionate bird in a beautifully compact package."
   },
 
@@ -222,14 +222,14 @@ const PARROTS = [
     id: 29, name: "Sky", species: "Budgerigar", speciesSlug: "budgerigars",
     age: "8 Months", ageMonths: 8, gender: "Male", price: 120,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Budgerigar_at_Busch_Gardens.jpg?width=600",
+    img: "https://images.pexels.com/photos/11635213/pexels-photo-11635213.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Sky is a stunning sky-blue Budgerigar with impeccable feathering and a gentle, tame disposition. He enjoys soft music, responds with melodious chattering, and has already begun developing his vocabulary. Sky is an ideal first companion bird for all ages and lifestyles — accessible luxury at its finest."
   },
   {
     id: 30, name: "Cloud", species: "Budgerigar", speciesSlug: "budgerigars",
     age: "6 Months", ageMonths: 6, gender: "Female", price: 110,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Melopsittacus_undulatus_-Lara,_Victoria,_Australia.jpg?width=600",
+    img: "https://images.pexels.com/photos/12565371/pexels-photo-12565371.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Cloud is a dainty white and silver Budgerigar with delicate grey wing markings and the most serene, soothing disposition. Her melodic song is the perfect soundtrack to a calm home. A graceful, gentle companion who brings daily tranquility and unexpected depth of personality to her owners."
   },
 
@@ -238,14 +238,14 @@ const PARROTS = [
     id: 31, name: "Jester", species: "Black-headed Caique", speciesSlug: "caiques",
     age: "1 Year", ageMonths: 12, gender: "Male", price: 1200,
     healthStatus: "Vet-Certified Healthy", featured: true,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Pionites_leucogaster_-Zoo_Leipzig-8.jpg?width=600",
+    img: "https://images.pexels.com/photos/56733/pexels-photo-56733.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Jester is the undisputed clown prince of our aviary. This Black-headed Caique is perpetually entertaining, always discovering new ways to play, wrestle with toys, and make his human family laugh. He surfs on backs, dances on shoulders, and brings a level of joy and mischief that is completely infectious."
   },
   {
     id: 32, name: "Tango", species: "White-bellied Caique", speciesSlug: "caiques",
     age: "2 Years", ageMonths: 24, gender: "Female", price: 1400,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Pionites_melanocephalus_-Tierpark_Hellabrunn-8.jpg?width=600",
+    img: "https://images.pexels.com/photos/56733/pexels-photo-56733.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Tango is a vivacious White-bellied Caique with brilliant orange and green plumage and boundless, infectious energy. She has a unique and endearing habit of hopping rather than walking, and her love of wrestling with toys and foraging challenges makes every day in her company a lively, memorable event."
   },
 
@@ -254,7 +254,7 @@ const PARROTS = [
     id: 33, name: "Kiko", species: "Senegal Parrot", speciesSlug: "senegal",
     age: "2 Years", ageMonths: 24, gender: "Male", price: 900,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Poicephalus_senegalus_-captive-8a.jpg?width=600",
+    img: "https://images.pexels.com/photos/26822483/pexels-photo-26822483.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Kiko is a distinguished Senegal Parrot with a handsome V-shaped yellow-green vest against his rich grey body — a natural tuxedo. Senegal Parrots are celebrated for their deep loyalty and pleasantly quiet nature. Kiko exemplifies these traits, making him an exceptional companion for those who value a calmer, deeply bonded bird."
   },
 
@@ -263,14 +263,14 @@ const PARROTS = [
     id: 34, name: "Pepper", species: "Quaker Parrot", speciesSlug: "quakers",
     age: "1 Year", ageMonths: 12, gender: "Male", price: 650,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Monk_Parakeet_%28Myiopsitta_monachus%293.jpg?width=600",
+    img: "https://images.pexels.com/photos/14155158/pexels-photo-14155158.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Pepper is a charming Quaker Parrot with a spicy personality that keeps everyone thoroughly entertained. Known for their remarkable talking ability and unique nest-building instincts, Quakers like Pepper are truly one-of-a-kind companions. He is already demonstrating impressive vocal development and loves to interact."
   },
   {
     id: 35, name: "Mint", species: "Quaker Parrot", speciesSlug: "quakers",
     age: "8 Months", ageMonths: 8, gender: "Female", price: 620,
     healthStatus: "Vet-Certified Healthy", featured: false,
-    img: "https://commons.wikimedia.org/wiki/Special:FilePath/Monk_Parakeet_%28Myiopsitta_monachus%293.jpg?width=600",
+    img: "https://images.pexels.com/photos/14155158/pexels-photo-14155158.jpeg?auto=compress&cs=tinysrgb&w=600",
     description: "Mint is a refreshing young Quaker Parrot with a bright, wonderfully inquisitive nature. She is already showing impressive vocal development and loves to investigate every corner of her environment. Her lively personality and quick learning make her a genuinely exciting bird to bring home."
   }
 ];
