@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="View this rare parrot available at The Gilded Perch — vet-certified, hand-raised, ethically bred.">
+  <meta property="og:type" content="product">
+  <title>Parrot Details — The Gilded Perch</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Tawk.to Live Chat -->
+  <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/69b69d5e1ff85f1c36fe4cf3/default';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+    })();
+  </script>
+  <!-- EmailJS -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script>emailjs.init("O_-rqFf7btgt78-zF");</script>
+</head>
+<body>
+
+<!-- ══ NAVIGATION ══════════════════════════════════════════ -->
+<nav class="nav" id="navbar" role="navigation" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="index.html" class="nav-logo" aria-label="The Gilded Perch Home">
+      <span class="logo-icon" aria-hidden="true">🦜</span>
+      <span class="logo-text">The Gilded Perch</span>
+    </a>
+    <ul class="nav-links" id="navLinks" role="menubar">
+      <li role="none"><a href="index.html"   class="nav-link" role="menuitem">Home</a></li>
+      <li role="none"><a href="shop.html"    class="nav-link active" role="menuitem">Parrots</a></li>
+      <li class="dropdown" role="none">
+        <a href="#" class="nav-link dropdown-toggle" role="menuitem" aria-haspopup="true" aria-expanded="false">Species ▾</a>
+        <ul class="dropdown-menu" role="menu">
+          <li role="none"><a href="species/african-grey.html" role="menuitem">African Grey</a></li>
+          <li role="none"><a href="species/macaws.html"       role="menuitem">Macaws</a></li>
+          <li role="none"><a href="species/cockatoos.html"    role="menuitem">Cockatoos</a></li>
+          <li role="none"><a href="species/eclectus.html"     role="menuitem">Eclectus</a></li>
+          <li role="none"><a href="species/amazon.html"       role="menuitem">Amazon Parrots</a></li>
+        </ul>
+      </li>
+      <li role="none"><a href="reviews.html" class="nav-link" role="menuitem">Reviews</a></li>
+      <li role="none"><a href="about.html"   class="nav-link" role="menuitem">About</a></li>
+      <li role="none"><a href="contact.html" class="nav-link" role="menuitem">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- ══ BREADCRUMB ═══════════════════════════════════════════ -->
+<nav class="breadcrumb-nav" aria-label="Breadcrumb">
+  <div class="container">
+    <ol class="breadcrumb">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Parrots</a></li>
+      <li aria-current="page" id="breadcrumbName">—</li>
+    </ol>
+  </div>
+</nav>
+
+<!-- ══ SINGLE PARROT ════════════════════════════════════════ -->
+<section class="parrot-single" id="parrotSingle" aria-label="Parrot details">
+  <div class="container">
+
+    <!-- Loading Skeleton -->
+    <div class="parrot-single-layout" id="parrotLayout" style="display:none;">
+
+      <!-- Left: Image -->
+      <div class="parrot-image-col">
+        <div class="parrot-image-wrap">
+          <img id="parrotImg" src="" alt="" class="parrot-img" loading="eager">
+          <div class="parrot-badge" id="parrotBadge"></div>
+        </div>
+        <!-- Thumbnail row (future: multiple images) -->
+        <div class="parrot-thumbs" id="parrotThumbs"></div>
+        <!-- Quick share -->
+        <div class="parrot-share">
+          <span class="share-label">Share:</span>
+          <button class="share-btn" id="shareBtn" aria-label="Copy link to clipboard">🔗 Copy Link</button>
+        </div>
+      </div>
+
+      <!-- Right: Info -->
+      <div class="parrot-info-col">
+        <div class="parrot-eyebrow" id="parrotSpeciesLabel"></div>
+        <h1 class="parrot-name"   id="parrotName"></h1>
+        <div class="parrot-price" id="parrotPrice"></div>
+
+        <!-- Specs Table -->
+        <dl class="parrot-specs">
+          <div class="spec-row">
+            <dt class="spec-label">Species</dt>
+            <dd class="spec-value" id="specSpecies"></dd>
+          </div>
+          <div class="spec-row">
+            <dt class="spec-label">Age</dt>
+            <dd class="spec-value" id="specAge"></dd>
+          </div>
+          <div class="spec-row">
+            <dt class="spec-label">Gender</dt>
+            <dd class="spec-value" id="specGender"></dd>
+          </div>
+          <div class="spec-row">
+            <dt class="spec-label">Health Status</dt>
+            <dd class="spec-value spec-health" id="specHealth">
+              <span class="health-dot" aria-hidden="true">●</span>
+              <span id="specHealthText"></span>
+            </dd>
+          </div>
+        </dl>
+
+        <!-- Description -->
+        <div class="parrot-desc-block">
+          <h2 class="parrot-desc-heading">About This Bird</h2>
+          <p class="parrot-desc" id="parrotDesc"></p>
+        </div>
+
+        <!-- Trust Badges -->
+        <div class="parrot-trust">
+          <div class="trust-badge"><span aria-hidden="true">✓</span> CITES Documented</div>
+          <div class="trust-badge"><span aria-hidden="true">✓</span> 30-Day Health Guarantee</div>
+          <div class="trust-badge"><span aria-hidden="true">✓</span> Breeder Support for Life</div>
+        </div>
+
+        <!-- CTA -->
+        <div class="parrot-cta">
+          <button class="btn btn-gold btn-lg reserve-btn" id="singleReserveBtn" aria-label="Reserve this parrot">
+            Reserve This Parrot
+          </button>
+          <a href="contact.html" class="btn btn-outline btn-lg">Ask a Question</a>
+        </div>
+
+        <p class="parrot-cta-note">No payment is taken at this stage. A certified breeder will contact you directly.</p>
+      </div>
+
+    </div>
+
+    <!-- Not Found State -->
+    <div class="parrot-not-found" id="parrotNotFound" style="display:none;">
+      <span aria-hidden="true" style="font-size:4rem;">🦜</span>
+      <h2>Parrot not found</h2>
+      <p>This bird may no longer be available.</p>
+      <a href="shop.html" class="btn btn-gold">Browse All Parrots</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- ══ YOU MIGHT ALSO LIKE ══════════════════════════════════ -->
+<section class="suggested-section" id="suggestedSection" style="display:none;" aria-label="Similar parrots">
+  <div class="container">
+    <h2 class="section-title">You May Also Like</h2>
+    <div class="suggested-grid" id="suggestedGrid"></div>
+  </div>
+</section>
+
+<!-- ══ RESERVATION MODAL ═════════════════════════════════════ -->
+<div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle" style="display:none;">
+  <div class="modal">
+    <button class="modal-close" id="modalClose" aria-label="Close reservation form">✕</button>
+    <div class="modal-header">
+      <h2 class="modal-title" id="modalTitle">Reserve <span id="modalBirdName"></span></h2>
+      <p class="modal-subtitle">Complete this form and a breeder will contact you within 24 hours. No payment is taken at this stage.</p>
+    </div>
+    <form class="modal-form" id="reservationForm" action="https://formspree.io/f/xlgpwvgb" method="POST" novalidate>
+      <input type="hidden" name="bird_name" id="formBirdName">
+      <input type="hidden" name="bird_id"   id="formBirdId">
+      <div class="form-row">
+        <div class="form-group">
+          <label for="resName" class="form-label">Full Name *</label>
+          <input type="text"  id="resName"  name="name"    class="form-input" placeholder="Your full name"  required>
+        </div>
+        <div class="form-group">
+          <label for="resEmail" class="form-label">Email Address *</label>
+          <input type="email" id="resEmail" name="email"   class="form-input" placeholder="your@email.com"  required>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="resPhone" class="form-label">Phone Number</label>
+          <input type="tel"   id="resPhone" name="phone"   class="form-input" placeholder="+1 555 000 0000">
+        </div>
+        <div class="form-group">
+          <label for="resCountry" class="form-label">Country *</label>
+          <input type="text"  id="resCountry" name="country" class="form-input" placeholder="United States" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="resMessage" class="form-label">Message / Questions</label>
+        <textarea id="resMessage" name="message" class="form-textarea" rows="4" placeholder="Tell us about your experience with parrots..."></textarea>
+      </div>
+      <p class="form-notice">🔒 Your information is secure and never shared. A certified breeder will reach out first — payment instructions only follow after a personal consultation.</p>
+      <button type="submit" class="btn btn-gold btn-full" id="reserveSubmitBtn">Send Reservation Request</button>
+    </form>
+    <div class="form-success" id="formSuccess" style="display:none;">
+      <span class="success-icon" aria-hidden="true">✓</span>
+      <h3>Reservation Received!</h3>
+      <p>Thank you! A certified breeder will contact you within 24 hours. Please do not send any payment until you have spoken directly with a breeder.</p>
+    </div>
+  </div>
+</div>
+
+<!-- ══ FOOTER ════════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">🦜 The Gilded Perch</a>
+      <p class="footer-tagline">Rare parrots. Exceptional companions.</p>
+      <div class="footer-social" aria-label="Social media links">
+        <a href="#" aria-label="Instagram" class="social-link">Instagram</a>
+        <a href="#" aria-label="Facebook"  class="social-link">Facebook</a>
+        <a href="#" aria-label="YouTube"   class="social-link">YouTube</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">All Parrots</a></li>
+        <li><a href="reviews.html">Reviews</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-heading">Species</h4>
+      <ul class="footer-links">
+        <li><a href="species/african-grey.html">African Grey</a></li>
+        <li><a href="species/macaws.html">Macaws</a></li>
+        <li><a href="species/cockatoos.html">Cockatoos</a></li>
+        <li><a href="species/eclectus.html">Eclectus</a></li>
+        <li><a href="species/amazon.html">Amazon Parrots</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4 class="footer-heading">Contact</h4>
+      <ul class="footer-links">
+        <li>✉ hello@gildedperch.com</li>
+        <li>📞 Available via live chat</li>
+        <li>🕐 Mon–Fri: 9am–6pm EST</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© <span id="year"></span> The Gilded Perch. All rights reserved.</p>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById('year').textContent = "2024";</script>
+</body>
+</html>
